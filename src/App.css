@@ -45,6 +45,26 @@ h5 {
   color:#707070;
 }
 
+.button{
+  color: black;
+  background-color: #707070;
+  border-radius:3px;
+  border-color: black;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.title-web {
+  font-size: 100pt;
+  color:#707070;
+}
+
+.artist-web {
+  font-size: 25pt;
+  color:#707070;
+}
 .blinking{
   animation:blinkingText .8s infinite;
 }
