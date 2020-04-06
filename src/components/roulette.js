@@ -2,10 +2,12 @@ import React from "react";
 import tstyled from 'tachyons-components';
 
 const Result = tstyled('div')`w-100`
+const Logo = tstyled('img')`w-10`
 function App(props) {
 
   return (
     <>
+    <Logo src="/img.png" />
       <Result>
           <h1 className="title-web">{props.title}</h1>
           <p className="artist-web">{props.artist}</p>

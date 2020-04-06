@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import tstyled from 'tachyons-components';
 import Songchoice from './components/roulette'
+import Songchoice2 from './components/roulette-mobile'
 import Web from './components/web'
 import Mobile from './components/mobile'
 import { songsData } from './data'
@@ -57,7 +58,7 @@ function App() {
         </TitleWebContainer>
         
         <TitleMobileContainer>
-          {step ? <Songchoice
+          {step ? <Songchoice2
             title={title}
             artist={artist}
             scLink={scLink}
